@@ -1,4 +1,4 @@
-# docker-picard
+# docker-Picard
 UCLA CDS Dockerfile for Picard from the Broad Institute.
 
 # Documentation
