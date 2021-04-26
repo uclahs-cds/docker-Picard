@@ -1,23 +1,11 @@
-FROM alpine:3.8
+FROM ubuntu:20.04
 
-LABEL maintainer="Ben Carlin <bcarlin@mednet.ucla.edu>"
+LABEL maintainer="Aaron Holmes <aholmes@mednet.ucla.edu>"
 
-# ca-certificates (for http requests)
-# libc6 (for Intel GKL)
-# R for picard
-# ps and command for reporting mertics
-RUN apk --no-cache --update add \
-      bash \
-      openjdk8 \
-      ca-certificates \
-      libc6-compat \
-      procps \
-      unzip \
-      curl \
-      R \
-      R-dev \
-      wget && \
-      update-ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends \
+      default-jre \
+      wget \
+      && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /picard-tools
 
