@@ -4,5 +4,7 @@ Description: 'Docker for Picard'
 Maintainers: ['aholmes@mednet.ucla.edu']
 Contributors: 'Aaron Holmes'
 Languages: ['sh']
+Tools: ['Picard']
+Version: ['2.25.5']
 Dependencies: ['docker']
 References: 'https://github.com/broadinstitute/picard'
