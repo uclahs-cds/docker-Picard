@@ -1,10 +1,10 @@
 ---
 Category: 'docker'
-Description: 'Docker for Picard'
+Description: 'Docker repository for Picard'
 Maintainers: ['aholmes@mednet.ucla.edu']
-Contributors: 'Aaron Holmes'
-Languages: ['sh']
+Contributors: ['Aaron Holmes', 'Helena Winata']
+Languages: ['Docker', 'bash']
 Tools: ['Picard']
 Version: ['2.25.5']
-Dependencies: ['docker']
+Dependencies: ['docker', 'conda', 'bl-base']
 References: 'https://github.com/broadinstitute/picard'
