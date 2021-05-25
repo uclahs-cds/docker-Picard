@@ -6,5 +6,6 @@ Contributors: ['Aaron Holmes', 'Helena Winata']
 Languages: ['Docker', 'bash']
 Tools: ['Picard']
 Version: ['2.25.5']
+Purpose: 'A set of tools for manipulating SAM/BAM/CRAM and VCF file formats'
 Dependencies: ['docker', 'conda', 'bl-base']
 References: 'https://github.com/broadinstitute/picard'
