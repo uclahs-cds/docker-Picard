@@ -9,6 +9,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 WORKDIR /picard-tools
 
-RUN PICARDJAR_SHA512=bf72718168201217d6981136293ae649bfb1a59cf251a2a613b5c632126a49e2ccd38cd45c845f8d3874b910f90840353c4cb83aee2b2094cd54f18753d7cbb4 \
+RUN PICARDJAR_SHA512=eb52e374a965767976d6ea0af00390d10dec9387ffa0b6c03708fe6726b0142938bc06efbc8df1d50c8aecf609cb0496a89bf714c71eaa96f42059b81610a551 \
       && wget https://github.com/broadinstitute/picard/releases/download/2.25.5/picard.jar \
       && echo $PICARDJAR_SHA512 picard.jar | sha512sum --strict -c -
