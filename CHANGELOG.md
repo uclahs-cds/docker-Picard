@@ -12,7 +12,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ## [2.25.5] - 2021-05-24
 ### Added
 - Update Picard from 2.23.3 to 2.25.5
-- Switch to bioconda installation instead of using wget
+- Switch to bioconda installation instead of using wget for Picard
 
 
 
