@@ -9,9 +9,9 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## ## [Unreleased]
 
-## [2.26.2] - 2021-10-18
+## [2.26.3] - 2021-10-19
 ### Added
-- Update Picard from 2.25.5 to 2.26.2
+- Update Picard from 2.25.5 to 2.26.3
 - Update bl-base version from 1.0.0 to 1.1.0
 - Use mamba instead of conda
 
