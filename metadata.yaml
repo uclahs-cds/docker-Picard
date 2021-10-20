@@ -5,6 +5,6 @@ Maintainers: ['aholmes@mednet.ucla.edu']
 Contributors: ['Aaron Holmes', 'Helena Winata', 'Jieun Oh']
 Languages: ['Dockerfile']
 Tools: ['Picard']
-Version: ['2.26.2']
+Version: ['2.26.3']
 Purpose: 'A set of tools for manipulating SAM/BAM/CRAM and VCF file formats'
 References: 'https://github.com/broadinstitute/picard'
