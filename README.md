@@ -1,5 +1,5 @@
 # docker-Picard
-UCLA CDS Dockerfile for Picard from the Broad Institute. A set of tools for manipulating SAM/BAM/CRAM and VCF file formats.
+UCLA CDS Dockerfile for Picard (picard-slim) from the Broad Institute. A set of tools for manipulating SAM/BAM/CRAM and VCF file formats.
 
 # Documentation
 
@@ -8,7 +8,7 @@ Picard can be found on GitHub at [broadinstitute/picard](https://github.com/broa
 # Version
 | Tool | Version |
 |------|---------|
-| Picard | 2.25.5 |
+| picard-slim | 2.26.3 |
 | Java | 1.8 |
 
 
