@@ -1,7 +1,7 @@
 FROM blcdsdockerregistry/bl-base:1.1.0 AS builder
 
 # Use mamba to install tools and dependencies into /usr/local
-ARG PICARD_VERSION=2.26.3
+ARG PICARD_VERSION=2.26.8
 RUN mamba create -qy -p /usr/local \
     -c bioconda \
     picard-slim==${PICARD_VERSION}
