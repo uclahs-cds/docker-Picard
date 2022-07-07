@@ -10,4 +10,4 @@ RUN mamba create -qy -p /usr/local \
 FROM ubuntu:20.04
 COPY --from=builder /usr/local /usr/local
 
-LABEL maintainer="Aaron Holmes <aholmes@mednet.ucla.edu>"
+LABEL maintainer="Selina Wu <selinawu@mednet.ucla.edu>"
