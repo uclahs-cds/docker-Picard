@@ -2,7 +2,7 @@
 Category: 'docker'
 Description: 'Docker repository for Picard'
 Maintainers: ['aholmes@mednet.ucla.edu']
-Contributors: ['Aaron Holmes', 'Helena Winata', 'Jieun Oh', 'Takafumi Yamaguchi', 'Arpi Beshlikyan','Selina Wu']
+Contributors: ['Aaron Holmes', 'Helena Winata', 'Jieun Oh', 'Takafumi Yamaguchi', 'Arpi Beshlikyan', 'Selina Wu']
 Languages: ['Dockerfile']
 Tools: ['Picard']
 Version: ['2.27.4']
