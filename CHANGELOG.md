@@ -9,6 +9,10 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## ## [Unreleased]
 
+## [2.27.4] - 2022-08-03
+### Added
+- Update Picard to 2.27.4
+
 ## [2.26.10] - 2022-01-05
 ### Added
 - Update Picard to 2.26.10 to address Log4j moderate vulnerability [GHSA-8489-44mv-ggj8](https://github.com/advisories/GHSA-8489-44mv-ggj8).
