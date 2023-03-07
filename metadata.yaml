@@ -8,3 +8,4 @@ Tools: ['Picard']
 Version: ['3.0.0']
 Purpose: 'A set of tools for manipulating SAM/BAM/CRAM and VCF file formats'
 References: 'https://github.com/broadinstitute/picard'
+image_name: 'picard'
