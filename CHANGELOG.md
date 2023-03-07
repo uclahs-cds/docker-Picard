@@ -9,6 +9,10 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## ## [Unreleased]
 
+## [3.0.0] - 2023-03-03
+### Added
+- Update Picard 3.0.0
+
 ## [2.27.4] - 2022-08-03
 ### Added
 - Update Picard to 2.27.4

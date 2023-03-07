@@ -2,9 +2,9 @@
 Category: 'docker'
 Description: 'Docker repository for Picard'
 Maintainers: ['selinawu@mednet.ucla.edu']
-Contributors: ['Aaron Holmes', 'Helena Winata', 'Jieun Oh', 'Takafumi Yamaguchi', 'Arpi Beshlikyan', 'Selina Wu']
+Contributors: ['Aaron Holmes', 'Helena Winata', 'Jieun Oh', 'Takafumi Yamaguchi', 'Arpi Beshlikyan', 'Selina Wu', 'Beth Neilsen']
 Languages: ['Dockerfile']
 Tools: ['Picard']
-Version: ['2.27.4']
+Version: ['3.0.0']
 Purpose: 'A set of tools for manipulating SAM/BAM/CRAM and VCF file formats'
 References: 'https://github.com/broadinstitute/picard'
