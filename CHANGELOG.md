@@ -8,6 +8,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## ## [Unreleased]
+### Added
+ - Update Picard 3.1.0
+
+### Changed
+ - Use miniforge instead of bl-base
 
 ## [3.0.0] - 2023-03-03
 ### Added

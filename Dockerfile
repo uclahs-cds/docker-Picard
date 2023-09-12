@@ -1,7 +1,8 @@
-FROM blcdsdockerregistry/bl-base:1.1.0 AS builder
+ARG MINIFORGE_VER=23.1.0-4
+FROM condaforge/mambaforge:${MINIFORGE_VER} AS builder
 
 # Use mamba to install tools and dependencies into /usr/local
-ARG PICARD_VERSION=3.0.0
+ARG PICARD_VERSION=3.1.0
 RUN mamba create -qy -p /usr/local \
     -c bioconda \
     -c conda-forge \
@@ -18,4 +19,5 @@ RUN groupadd -g 500001 bldocker && \
 # Change the default user to bldocker from root
 USER bldocker
 
-LABEL maintainer="Selina Wu <selinawu@mednet.ucla.edu>"
+LABEL maintainer="Selina Wu <selinawu@mednet.ucla.edu>" \
+      org.opencontainers.image.source=https://github.com/uclahs-cds/docker-Picard
