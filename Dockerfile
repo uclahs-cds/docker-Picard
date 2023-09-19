@@ -1,4 +1,4 @@
-ARG MINIFORGE_VER=23.1.0-4
+ARG MINIFORGE_VER=23.3.1-1
 FROM condaforge/mambaforge:${MINIFORGE_VER} AS builder
 
 # Use mamba to install tools and dependencies into /usr/local
@@ -19,5 +19,5 @@ RUN groupadd -g 500001 bldocker && \
 # Change the default user to bldocker from root
 USER bldocker
 
-LABEL maintainer="Selina Wu <selinawu@mednet.ucla.edu>" \
+LABEL maintainer="Joseph Salmingo <jsalmingo@mednet.ucla.edu>" \
       org.opencontainers.image.source=https://github.com/uclahs-cds/docker-Picard
