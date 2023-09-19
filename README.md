@@ -4,12 +4,12 @@ UCLA CDS Dockerfile for Picard (picard-slim) from the Broad Institute. A set of 
 # Documentation
 
 Picard can be found on GitHub at [broadinstitute/picard](https://github.com/broadinstitute/picard).
-`picard.jar` can be found at `/usr/local/share/picard-slim-3.0.0-0/picard.jar`
+`picard.jar` can be found at `/usr/local/share/picard-slim-3.1.0-0/picard.jar`
 
 # Version
 | Tool | Version |
 |------|---------|
-| picard-slim | 3.0.0 |
+| picard-slim | 3.1.0 |
 | Java | 1.17 |
 
 ## References
