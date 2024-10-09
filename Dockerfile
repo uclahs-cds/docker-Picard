@@ -2,7 +2,7 @@ ARG MINIFORGE_VER=23.3.1-1
 FROM condaforge/mambaforge:${MINIFORGE_VER} AS builder
 
 # Use mamba to install tools and dependencies into /usr/local
-ARG PICARD_VERSION=3.2.0
+ARG PICARD_VERSION=3.3.0
 RUN mamba create -qy -p /usr/local \
     -c bioconda \
     -c conda-forge \
