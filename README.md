@@ -9,7 +9,7 @@ Picard can be found on GitHub at [broadinstitute/picard](https://github.com/broa
 # Version
 | Tool | Version |
 |------|---------|
-| picard-slim | 3.3.0 |
+| picard-slim | 3.4.0 |
 | Java | 1.17 |
 
 ## References
